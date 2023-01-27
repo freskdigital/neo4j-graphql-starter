@@ -1,0 +1,37 @@
+{
+	"name": "neo4j-graphql-starter",
+	"version": "0.1.0",
+	"description": "",
+	"keywords": [],
+	"author": "Stefan Mirck (https://github.com/stefanmirck)",
+	"license": "SEE LICENSE",
+	"scripts": {
+		"lint": "eslint .",
+		"prepare": "husky install",
+		"start": "vercel dev",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"@envelop/disable-introspection": "^4.0.6",
+		"@graphql-tools/load-files": "^6.6.1",
+		"@neo4j/graphql": "^3.17.2",
+		"graphql": "^16.6.0",
+		"graphql-yoga": "^3.8.0",
+		"neo4j-driver": "^5.6.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.5.1",
+		"@commitlint/config-conventional": "^17.4.4",
+		"@tsconfig/node16": "^1.0.3",
+		"@typescript-eslint/eslint-plugin": "^5.57.0",
+		"@typescript-eslint/parser": "^5.57.0",
+		"@vercel/node": "^2.10.2",
+		"eslint": "^8.37.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-eslint-comments": "^3.2.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.2.0",
+		"prettier": "^2.8.7",
+		"typescript": "^5.0.3"
+	}
+}

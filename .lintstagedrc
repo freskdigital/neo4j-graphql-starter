@@ -1,0 +1,4 @@
+{
+	"*.[jt]s": "eslint --fix",
+	"*.{graphql,htm?(l),[jt]s?(on),md,y?(a)ml}": "prettier --write --loglevel=error"
+}
