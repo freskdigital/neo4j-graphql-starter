@@ -1,0 +1,9 @@
+# Based on Neo4j’s movie example dataset. Replace with your own.
+type Query {
+	moviesReleasedIn(year: BigInt!): [Movie!]!
+		@cypher(
+			statement: """
+			MATCH (movie:Movie{released:$year}) RETURN movie
+			"""
+		)
+}
