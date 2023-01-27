@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"graphql.vscode-graphql",
+		"graphql.vscode-graphql-execution",
+		"graphql.vscode-graphql-syntax",
+		"ms-vsliveshare.vsliveshare"
+	]
+}
