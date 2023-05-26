@@ -14,7 +14,7 @@
 	"dependencies": {
 		"@envelop/disable-introspection": "^4.0.6",
 		"@graphql-tools/load-files": "^6.6.1",
-		"@neo4j/graphql": "^3.18.3",
+		"@neo4j/graphql": "^3.20.0",
 		"graphql": "^16.6.0",
 		"graphql-yoga": "^3.9.1",
 		"neo4j-driver": "^5.8.0"
