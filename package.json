@@ -17,7 +17,7 @@
 		"@neo4j/graphql": "^3.21.0",
 		"graphql": "^16.6.0",
 		"graphql-yoga": "^4.0.1",
-		"neo4j-driver": "^5.9.1"
+		"neo4j-driver": "^5.9.2"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.6.5",
